@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 # Billing
 
 Gain a shell, find the way and escalate your privileges!
@@ -78,5 +79,9 @@ bash-5.2# whoami
 whoami
 root
 bash-5.2# 
+<<<<<<< HEAD
 '''
 ![alt text](image-10.png)
+=======
+![alt text](image-10.png)
+>>>>>>> 793122a9fb4fe02fdf0d28cb9e1d2f30f03caf31
