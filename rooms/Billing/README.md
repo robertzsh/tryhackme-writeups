@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 # Billing
 
 Gain a shell, find the way and escalate your privileges!
