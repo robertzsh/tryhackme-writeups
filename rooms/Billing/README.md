@@ -51,6 +51,7 @@ Checking the running processes, fail2ban-server is running as root, as expected.
 ![alt text](image-9.png)
 Jails are basically configurations that define which logs to monitor, the patterns to look for, and the actions to take when a pattern is matched.
 
+'''bash
 asterisk@ip-10-10-45-158:/etc/fail2ban$  /usr/bin/fail2ban-client set asterisk-manager
 <ban$  /usr/bin/fail2ban-client set asterisk-manager
 2025-08-30 07:51:34,904 fail2ban                [50777]: ERROR   Permission denied to socket: /var/run/fail2ban/fail2ban.sock, (you must be root)
@@ -77,4 +78,5 @@ bash-5.2# whoami
 whoami
 root
 bash-5.2# 
+'''
 ![alt text](image-10.png)
